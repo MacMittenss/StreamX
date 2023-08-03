@@ -21,4 +21,4 @@ JavaScript DOM manipulation
 Resources:
 
 Swiper JavaScript code from https://swiperjs.com. Copyright 2014-2022 Vladimir Kharlampidi. Released on: September 15, 2022.
-API: https://api.themoviedb.org
+API: https://api.themoviedb.org.
