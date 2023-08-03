@@ -7,21 +7,23 @@
 }
 
 :root {
-  --color-primary: #1e1e1e;
+  --color-primary: #171717;
   --color-secondary: #8d5a23;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Anton', sans-serif;
   font-size: 16px;
   font-weight: 200;
   background: var(--color-primary);
   color: #fff;
   overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
 }
 
 a {
-  color: #fff;
+  color: #c2c2c2;
   text-decoration: none;
 }
 
@@ -89,6 +91,8 @@ ul {
 .main-header {
   padding: 20px 0;
   background: rgba(0, 0, 0, 0.8);
+  position: relative;
+  z-index: 10;
 }
 
 .main-header .logo {
@@ -123,10 +127,10 @@ ul {
 
 /* Card */
 .card {
-  background: #6e461c;
-  padding: 5px;
-  border-radius: 6px;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.7);
+  background: #8a8a8a;
+  padding: 0px;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 087);
 }
 
 .card img {
@@ -135,7 +139,7 @@ ul {
 
 .card-body {
   padding: 10px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .card:hover {
@@ -146,7 +150,7 @@ ul {
 
 /* Footer */
 .main-footer {
-  background: #1e1e1e;
+  background: #171717;
   padding: 20px 0;
   margin-top: 50px;
   border-top: 1px solid #545454;
@@ -159,7 +163,7 @@ ul {
 }
 
 .main-footer .container .logo {
-  color: #fff;
+  color: #c2c2c2;
   font-size: 25px;
   font-weight: 700;
   text-transform: uppercase;
@@ -172,7 +176,7 @@ ul {
 
 .main-footer .container .social-links a {
   margin-left: 10px;
-  color: #fff;
+  color: #c2c2c2;
 }
 
 .main-footer .container .social-links a:hover {
@@ -184,12 +188,26 @@ ul {
 section.now-playing {
   padding: 60px;
   background: url(../images/showcase-bg.jpg) no-repeat center center/cover;
+  position: relative;
+}
+
+section.now-playing::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
 }
 
 section h2 {
   margin: 20px 0;
   text-align: center;
   text-transform: uppercase;
+  position: relative;
+  z-index: 10;
+  color: #c2c2c2;
 }
 
 /* Slider */
