@@ -1,5 +1,5 @@
 # StreamX
-A mock streaming website utilzing web APIs created using HTML, CSS, JavaScript.
+A mock streaming website utilzing web APIs created using HTML, CSS and JavaScript.
 
 Biult with:
 
@@ -8,7 +8,7 @@ CSS custom properties,
 Flexbox, 
 CSS Grid, 
 Responsive layout, 
-JavScript
+JavaScript
 
 Learned:
 
