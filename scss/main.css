@@ -1,0 +1,23 @@
+@media (max-width: 320px) {
+  .main-header .logo {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .main-header .nav-link {
+    font-size: 12px;
+  }
+  .now-playing h2 {
+    font-size: 18px;
+  }
+  .now-playing .swiper-slide {
+    font-size: 12px;
+  }
+  .now-playing .swiper-rating {
+    font-size: 10px;
+  }
+  .now-playing .fas {
+    font-weight: 700;
+  }
+}/*# sourceMappingURL=main.css.map */
