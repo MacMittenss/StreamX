@@ -1,0 +1,18 @@
+{
+  "name": "streamx",
+  "version": "1.0.0",
+  "description": "A mock streaming website utilzing web APIs created using HTML, CSS and JavaScript.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "sass": "sass --watch scss:dist/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.65.1"
+  }
+}

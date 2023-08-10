@@ -77,10 +77,10 @@
 }
 
 .back {
-  margin-top: 15px;
+  margin-top: 20px;
 }
 .back .btn {
-  font-size: 10px;
+  font-size: 13px;
   padding: 0.3rem 0.7rem;
 }
 
@@ -95,7 +95,7 @@
   margin: 25px 0 14px;
 }
 #movie-details .details-top .card-img-top {
-  width: 180px;
+  width: 215px;
   margin: 0;
 }
 #movie-details .details-top h2 {
