@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @media (max-width: 500px) {
+=======
+@media (max-width: 320px) {
+>>>>>>> 46cb7ca872423e474174d411000a3723ac4b0ced
   .main-header .logo {
     color: #fff;
     font-size: 15px;
@@ -20,6 +24,7 @@
   .now-playing .fas {
     font-weight: 700;
   }
+<<<<<<< HEAD
   .search {
     padding: 20px;
     margin-bottom: 20px;
@@ -133,4 +138,6 @@
 }
 #movie-details {
   min-height: 990px;
+=======
+>>>>>>> 46cb7ca872423e474174d411000a3723ac4b0ced
 }/*# sourceMappingURL=main.css.map */
