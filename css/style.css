@@ -127,7 +127,7 @@ ul {
 
 /* Card */
 .card {
-  background: #8a8a8a;
+  background: transparent;
   padding: 0px;
   border-radius: 7px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 087);
@@ -139,7 +139,7 @@ ul {
 
 .card-body {
   padding: 10px;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .card:hover {

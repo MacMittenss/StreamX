@@ -81,7 +81,7 @@
     padding: 0.3rem 0.7rem;
   }
   #movie-details {
-    height: 900px;
+    min-height: 990px;
   }
   #movie-details .details-top {
     display: flex;
@@ -138,6 +138,64 @@
   #movie-details .details-bottom .list-group {
     font-size: 11px;
   }
+  #show-details {
+    min-height: 1200px;
+  }
+  #show-details .details-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0 14px;
+  }
+  #show-details .details-top .card-img-top {
+    width: 215px;
+    margin: 0;
+  }
+  #show-details .details-top h2 {
+    font-size: 9px;
+  }
+  #show-details .details-top p {
+    font-size: 12px;
+  }
+  #show-details .details-top .text-muted {
+    margin: 12px 0;
+  }
+  #show-details .details-top h5 {
+    font-size: 10px;
+  }
+  #show-details .details-top .list-group {
+    font-size: 10px;
+  }
+  #show-details .details-top .btn {
+    font-size: 10px;
+    padding: 0.3rem 0.5rem;
+  }
+  #show-details .details-bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  #show-details .details-bottom h2 {
+    font-size: 12px;
+    margin: 5px;
+  }
+  #show-details .details-bottom li {
+    font-size: 12px;
+    margin: 6px;
+    padding-bottom: 2px;
+  }
+  #show-details .details-bottom .text-secondary {
+    font-weight: 500;
+  }
+  #show-details .details-bottom h4 {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  #show-details .details-bottom .list-group {
+    font-size: 11px;
+  }
 }
 @media (max-width: 320px) {
   .main-header .logo {
@@ -188,11 +246,14 @@
   }
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 20px;
   }
+  .grid .card {
+    width: 120px;
+  }
   .grid .card .card-body {
-    font-size: 13px;
+    font-size: 10px;
     padding: 8px;
   }
   .main-footer {
@@ -273,6 +334,10 @@
   }
 }
 #movie-details {
+  min-height: 990px;
+}
+
+#show-details {
   min-height: 990px;
 }
 
