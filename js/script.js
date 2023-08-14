@@ -240,7 +240,6 @@ const global = {
     overlayDiv.style.left = '0';
     overlayDiv.style.zIndex = '-1';
     overlayDiv.style.opacity = '0.13';
-    overlayDiv.style.minHeight = '1200px';
   
     if (type === 'movie') {
       document.querySelector('#movie-details').appendChild(overlayDiv);
