@@ -1,5 +1,129 @@
+// Tablets
+@media(max-width: 768px) {
+    // Movie & TV Show Home Page
+    .now-playing {
+        h2 {
+            font-size: 25px;
+        }
+
+        .swiper-slide {
+            font-size: 18px;
+        }
+
+        .swiper-rating {
+            font-size: 15px;
+        }
+
+        .fas {
+            font-weight: 700;
+        }
+    }
+
+    .search {
+        padding: 30px;
+        margin-bottom: 15px;
+
+        &-radio {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+        }
+    }
+
+    .container {
+        h2 {
+            font-size: 18px;
+        }
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        grid-gap: 20px;
+
+        .card {
+            width: 240px;
+
+            .card-body {
+            font-size: 10px; 
+            padding: 8px;
+            }
+        }
+    }
+
+    .main-footer {
+
+        .container {
+            .logo {
+                font-size: 20px;
+            }
+        }
+    }
+    // Movie Details Page
+
+    #movie-details {
+        min-height: 990px;
+
+            p {
+                font-size: 15px;
+            }
+
+            .list-group {
+                font-size: 15px;
+            }
+        
+
+        .details-bottom {
+
+            h2 {
+                font-size: 15px;
+            }
+
+            li {
+                font-size: 15px;
+                padding-bottom: 2px;
+            }
+
+            .list-group {
+                font-size: 15px;
+            }
+        }
+    }
+
+    // TV Show Details
+    #show-details {
+        min-height: 990px;
+
+            p {
+                font-size: 15px;
+            }
+
+            .list-group {
+                font-size: 15px;
+            }
+        
+
+        .details-bottom {
+
+            h2 {
+                font-size: 15px;
+            }
+
+            li {
+                font-size: 15px;
+                padding-bottom: 2px;
+            }
+
+            .list-group {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
 // Smartphones
-@media(max-width: 500px) {
+@media(max-width: 620px) {
     // Movie & TV Show Home Page
     .main-header {
         .logo {
@@ -70,17 +194,15 @@
     }
 
     .grid {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        gap: 20px;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        grid-gap: 21px;
 
         .card {
-            width: 250px;
-            
+            width: 180px;
+
             .card-body {
-            font-size: 13px; 
+            font-size: 10px; 
             padding: 8px;
             }
         }
@@ -185,7 +307,7 @@
 
     // TV Show Details
     #show-details {
-        min-height: 1200px;
+        min-height: 990px;
 
         .details-top {
             display: flex;
@@ -258,7 +380,7 @@
     }
 }
 
-@media(max-width: 320px) {
+@media(max-width: 400px) {
     // Movie & TV Show Home Page
     .main-header {
         .logo {
@@ -326,11 +448,11 @@
 
     .grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
         grid-gap: 20px;
 
         .card {
-            width: 120px;
+            width: 150px;
             .card-body {
             font-size: 10px; 
             padding: 8px;
@@ -363,7 +485,7 @@
     }
 
     #movie-details {
-        height: 900px;
+        min-height: 990px;
 
         .details-top {
             display: flex;
