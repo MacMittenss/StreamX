@@ -39,9 +39,6 @@
   .main-footer .container .logo {
     font-size: 20px;
   }
-  #movie-details {
-    height: 990px;
-  }
   #movie-details p {
     font-size: 15px;
   }
@@ -57,9 +54,6 @@
   }
   #movie-details .details-bottom .list-group {
     font-size: 15px;
-  }
-  #show-details {
-    height: 991px;
   }
   #show-details p {
     font-size: 15px;
@@ -158,9 +152,6 @@
     font-size: 13px;
     padding: 0.3rem 0.7rem;
   }
-  #movie-details {
-    max-height: 990px;
-  }
   #movie-details .details-top {
     display: flex;
     justify-content: center;
@@ -215,9 +206,6 @@
   }
   #movie-details .details-bottom .list-group {
     font-size: 11px;
-  }
-  #show-details {
-    max-height: 990px;
   }
   #show-details .details-top {
     display: flex;
@@ -351,9 +339,6 @@
   .back .btn {
     font-size: 10px;
     padding: 0.3rem 0.7rem;
-  }
-  #movie-details {
-    min-height: 990px;
   }
   #movie-details .details-top {
     display: flex;
