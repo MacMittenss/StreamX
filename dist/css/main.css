@@ -40,7 +40,7 @@
     font-size: 20px;
   }
   #movie-details {
-    max-height: 990px;
+    height: 990px;
   }
   #movie-details p {
     font-size: 15px;
@@ -59,7 +59,7 @@
     font-size: 15px;
   }
   #show-details {
-    min-height: 990px;
+    height: 991px;
   }
   #show-details p {
     font-size: 15px;
