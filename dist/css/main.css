@@ -40,7 +40,7 @@
     font-size: 20px;
   }
   #movie-details {
-    min-height: 990px;
+    max-height: 990px;
   }
   #movie-details p {
     font-size: 15px;
@@ -159,7 +159,7 @@
     padding: 0.3rem 0.7rem;
   }
   #movie-details {
-    min-height: 990px;
+    max-height: 990px;
   }
   #movie-details .details-top {
     display: flex;
@@ -217,7 +217,7 @@
     font-size: 11px;
   }
   #show-details {
-    min-height: 990px;
+    max-height: 990px;
   }
   #show-details .details-top {
     display: flex;
