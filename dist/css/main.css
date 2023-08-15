@@ -1,3 +1,592 @@
+@media (max-width: 768px) {
+  .now-playing h2 {
+    font-size: 25px;
+  }
+  .now-playing .swiper-slide {
+    font-size: 18px;
+  }
+  .now-playing .swiper-rating {
+    font-size: 15px;
+  }
+  .now-playing .fas {
+    font-weight: 700;
+  }
+  .search {
+    padding: 30px;
+    margin-bottom: 15px;
+  }
+  .search-radio {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+  .search input {
+    margin-right: 5px;
+  }
+  .container h2 {
+    font-size: 18px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    grid-gap: 20px;
+  }
+  .grid .card {
+    width: 240px;
+  }
+  .grid .card .card-body {
+    font-size: 10px;
+    padding: 8px;
+  }
+  .main-footer .container .logo {
+    font-size: 20px;
+  }
+  #movie-details p {
+    font-size: 15px;
+  }
+  #movie-details .list-group {
+    font-size: 15px;
+  }
+  #movie-details .details-bottom h2 {
+    font-size: 15px;
+  }
+  #movie-details .details-bottom li {
+    font-size: 15px;
+    padding-bottom: 2px;
+  }
+  #movie-details .details-bottom .list-group {
+    font-size: 15px;
+  }
+  #show-details p {
+    font-size: 15px;
+  }
+  #show-details .list-group {
+    font-size: 15px;
+  }
+  #show-details .details-bottom h2 {
+    font-size: 15px;
+  }
+  #show-details .details-bottom li {
+    font-size: 15px;
+    padding-bottom: 2px;
+  }
+  #show-details .details-bottom .list-group {
+    font-size: 15px;
+  }
+}
+@media (max-width: 620px) {
+  .main-header .logo {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .main-header .nav-link {
+    font-size: 12px;
+  }
+  .now-playing h2 {
+    font-size: 18px;
+  }
+  .now-playing .swiper-slide {
+    font-size: 12px;
+  }
+  .now-playing .swiper-rating {
+    font-size: 10px;
+  }
+  .now-playing .fas {
+    font-weight: 700;
+  }
+  .search {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .search-radio {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+  }
+  .search-radio label {
+    padding-left: 5px;
+  }
+  .search-flex {
+    padding-top: 10px;
+  }
+  .search .container form input[type=text] {
+    height: 35px;
+    padding: 5px;
+  }
+  .search .container form button {
+    height: 35px;
+    padding: 5px;
+  }
+  .container h2 {
+    font-size: 18px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-gap: 21px;
+  }
+  .grid .card {
+    width: 180px;
+  }
+  .grid .card .card-body {
+    font-size: 10px;
+    padding: 8px;
+  }
+  .main-footer {
+    padding: 10px 0;
+    margin-top: 30px;
+  }
+  .main-footer .container .logo {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .main-footer .container .social-links {
+    font-size: 12px;
+  }
+  .back {
+    margin-top: 20px;
+  }
+  .back .btn {
+    font-size: 13px;
+    padding: 0.3rem 0.7rem;
+  }
+  #movie-details .details-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0 14px;
+  }
+  #movie-details .details-top .card-img-top {
+    width: 215px;
+    margin: 0;
+  }
+  #movie-details .details-top h2 {
+    font-size: 13px;
+  }
+  #movie-details .details-top p {
+    font-size: 12px;
+  }
+  #movie-details .details-top .text-muted {
+    margin: 12px 0;
+  }
+  #movie-details .details-top h5 {
+    font-size: 10px;
+  }
+  #movie-details .details-top .list-group {
+    font-size: 10px;
+  }
+  #movie-details .details-top .btn {
+    font-size: 10px;
+    padding: 0.3rem 0.5rem;
+  }
+  #movie-details .details-bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  #movie-details .details-bottom h2 {
+    font-size: 12px;
+    margin: 5px;
+  }
+  #movie-details .details-bottom li {
+    font-size: 12px;
+    margin: 6px;
+    padding-bottom: 2px;
+  }
+  #movie-details .details-bottom .text-secondary {
+    font-weight: 500;
+  }
+  #movie-details .details-bottom h4 {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  #movie-details .details-bottom .list-group {
+    font-size: 11px;
+  }
+  #show-details .details-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0 14px;
+  }
+  #show-details .details-top .card-img-top {
+    width: 215px;
+    margin: 0;
+  }
+  #show-details .details-top h2 {
+    font-size: 13px;
+  }
+  #show-details .details-top p {
+    font-size: 12px;
+  }
+  #show-details .details-top .text-muted {
+    margin: 12px 0;
+  }
+  #show-details .details-top h5 {
+    font-size: 10px;
+  }
+  #show-details .details-top .list-group {
+    font-size: 10px;
+  }
+  #show-details .details-top .btn {
+    font-size: 10px;
+    padding: 0.3rem 0.5rem;
+  }
+  #show-details .details-bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  #show-details .details-bottom h2 {
+    font-size: 12px;
+    margin: 5px;
+  }
+  #show-details .details-bottom li {
+    font-size: 12px;
+    margin: 6px;
+    padding-bottom: 2px;
+  }
+  #show-details .details-bottom .text-secondary {
+    font-weight: 500;
+  }
+  #show-details .details-bottom h4 {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  #show-details .details-bottom .list-group {
+    font-size: 11px;
+  }
+}
+@media (max-width: 400px) {
+  .main-header .logo {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .main-header .nav-link {
+    font-size: 12px;
+  }
+  .now-playing h2 {
+    font-size: 18px;
+  }
+  .now-playing .swiper-slide {
+    font-size: 12px;
+  }
+  .now-playing .swiper-rating {
+    font-size: 10px;
+  }
+  .now-playing .fas {
+    font-weight: 700;
+  }
+  .search {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .search-radio {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+  }
+  .search-radio label {
+    padding-left: 5px;
+  }
+  .search .container form input[type=text] {
+    height: 35px;
+    padding: 5px;
+  }
+  .search .container form button {
+    height: 35px;
+    padding: 5px;
+  }
+  .container h2 {
+    font-size: 18px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-gap: 20px;
+  }
+  .grid .card {
+    width: 150px;
+  }
+  .grid .card .card-body {
+    font-size: 10px;
+    padding: 8px;
+  }
+  .main-footer {
+    padding: 10px 0;
+    margin-top: 30px;
+  }
+  .main-footer .container .logo {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .main-footer .container .social-links {
+    font-size: 12px;
+  }
+  .back {
+    margin-top: 15px;
+  }
+  .back .btn {
+    font-size: 10px;
+    padding: 0.3rem 0.7rem;
+  }
+  #movie-details .details-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0 14px;
+  }
+  #movie-details .details-top .card-img-top {
+    width: 180px;
+    margin: 0;
+  }
+  #movie-details .details-top h2 {
+    font-size: 13px;
+  }
+  #movie-details .details-top p {
+    font-size: 12px;
+  }
+  #movie-details .details-top .text-muted {
+    margin: 12px 0;
+  }
+  #movie-details .details-top h5 {
+    font-size: 10px;
+  }
+  #movie-details .details-top .list-group {
+    font-size: 10px;
+  }
+  #movie-details .details-top .btn {
+    font-size: 10px;
+    padding: 0.3rem 0.5rem;
+  }
+  #movie-details .details-bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  #movie-details .details-bottom h2 {
+    font-size: 12px;
+    margin: 5px;
+  }
+  #movie-details .details-bottom li {
+    font-size: 12px;
+    margin: 6px;
+    padding-bottom: 2px;
+  }
+  #movie-details .details-bottom .text-secondary {
+    font-weight: 500;
+  }
+  #movie-details .details-bottom h4 {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  #movie-details .details-bottom .list-group {
+    font-size: 11px;
+  }
+  #show-details .details-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0 14px;
+  }
+  #show-details .details-top .card-img-top {
+    width: 215px;
+    margin: 0;
+  }
+  #show-details .details-top h2 {
+    font-size: 13px;
+  }
+  #show-details .details-top p {
+    font-size: 12px;
+  }
+  #show-details .details-top .text-muted {
+    margin: 12px 0;
+  }
+  #show-details .details-top h5 {
+    font-size: 10px;
+  }
+  #show-details .details-top .list-group {
+    font-size: 10px;
+  }
+  #show-details .details-top .btn {
+    font-size: 10px;
+    padding: 0.3rem 0.5rem;
+  }
+  #show-details .details-bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  #show-details .details-bottom h2 {
+    font-size: 12px;
+    margin: 5px;
+  }
+  #show-details .details-bottom li {
+    font-size: 12px;
+    margin: 6px;
+    padding-bottom: 2px;
+  }
+  #show-details .details-bottom .text-secondary {
+    font-weight: 500;
+  }
+  #show-details .details-bottom h4 {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  #show-details .details-bottom .list-group {
+    font-size: 11px;
+  }
+}
+@media (max-width: 280px) {
+  .main-header .logo {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .main-header .nav-link {
+    font-size: 12px;
+  }
+  .now-playing h2 {
+    font-size: 18px;
+  }
+  .now-playing .swiper-slide {
+    font-size: 12px;
+  }
+  .now-playing .swiper-rating {
+    font-size: 10px;
+  }
+  .now-playing .fas {
+    font-weight: 700;
+  }
+  .search {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .search-radio {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+  }
+  .search-radio label {
+    padding-left: 5px;
+  }
+  .search .container form input[type=text] {
+    height: 35px;
+    padding: 5px;
+  }
+  .search .container form button {
+    height: 35px;
+    padding: 5px;
+  }
+  .container h2 {
+    font-size: 18px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 10px;
+  }
+  .grid .card {
+    width: 120px;
+  }
+  .grid .card .card-body {
+    font-size: 10px;
+    padding: 8px;
+  }
+  .main-footer {
+    padding: 10px 0;
+    margin-top: 30px;
+  }
+  .main-footer .container .logo {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .main-footer .container .social-links {
+    font-size: 12px;
+  }
+  .back {
+    margin-top: 15px;
+  }
+  .back .btn {
+    font-size: 10px;
+    padding: 0.3rem 0.7rem;
+  }
+  #movie-details .details-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0 14px;
+  }
+  #movie-details .details-top .card-img-top {
+    width: 180px;
+    margin: 0;
+  }
+  #movie-details .details-top h2 {
+    font-size: 13px;
+  }
+  #movie-details .details-top p {
+    font-size: 12px;
+  }
+  #movie-details .details-top .text-muted {
+    margin: 12px 0;
+  }
+  #movie-details .details-top h5 {
+    font-size: 10px;
+  }
+  #movie-details .details-top .list-group {
+    font-size: 10px;
+  }
+  #movie-details .details-top .btn {
+    font-size: 10px;
+    padding: 0.3rem 0.5rem;
+  }
+  #movie-details .details-bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  #movie-details .details-bottom h2 {
+    font-size: 12px;
+    margin: 5px;
+  }
+  #movie-details .details-bottom li {
+    font-size: 12px;
+    margin: 6px;
+    padding-bottom: 2px;
+  }
+  #movie-details .details-bottom .text-secondary {
+    font-weight: 500;
+  }
+  #movie-details .details-bottom h4 {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  #movie-details .details-bottom .list-group {
+    font-size: 11px;
+  }
+}
 #movie-details {
   min-height: 990px;
 }
