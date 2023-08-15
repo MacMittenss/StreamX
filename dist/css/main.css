@@ -21,6 +21,9 @@
     flex-direction: row;
     align-items: center;
   }
+  .search input {
+    margin-right: 5px;
+  }
   .container h2 {
     font-size: 18px;
   }
@@ -585,11 +588,11 @@
   }
 }
 #movie-details {
-  min-height: 990px;
+  min-height: 900px;
 }
 
 #show-details {
-  min-height: 990px;
+  min-height: 900px;
 }
 
 /*# sourceMappingURL=main.css.map */
