@@ -29,10 +29,6 @@
             flex-direction: row;
             align-items: center;
         }
-
-        input {
-            margin-right: 5px;
-        }
     }
 
     .container {
@@ -41,22 +37,7 @@
         }
     }
 
-    #popular-shows {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-        grid-gap: 20px;
-
-        .card {
-            width: 240px;
-
-            .card-body {
-            font-size: 10px; 
-            padding: 8px;
-            }
-        }
-    }
-
-    #popular-movies {
+    .grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
         grid-gap: 20px;

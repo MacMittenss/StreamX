@@ -21,33 +21,18 @@
     flex-direction: row;
     align-items: center;
   }
-  .search input {
-    margin-right: 5px;
-  }
   .container h2 {
     font-size: 18px;
   }
-  #popular-shows {
+  .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     grid-gap: 20px;
   }
-  #popular-shows .card {
+  .grid .card {
     width: 240px;
   }
-  #popular-shows .card .card-body {
-    font-size: 10px;
-    padding: 8px;
-  }
-  #popular-movies {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-    grid-gap: 20px;
-  }
-  #popular-movies .card {
-    width: 240px;
-  }
-  #popular-movies .card .card-body {
+  .grid .card .card-body {
     font-size: 10px;
     padding: 8px;
   }
