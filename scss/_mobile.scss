@@ -245,7 +245,7 @@
             }
 
             h2 {
-                font-size: 9px;
+                font-size: 13px;
             }
 
             p {
@@ -318,7 +318,7 @@
             }
 
             h2 {
-                font-size: 9px;
+                font-size: 13px;
             }
 
             p {
@@ -491,6 +491,79 @@
 
             .card-img-top {
                 width: 180px;
+                margin: 0;
+            }
+
+            h2 {
+                font-size: 13px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+
+            .text-muted {
+                margin: 12px 0;
+            }
+
+            h5 {
+                font-size: 10px;
+            }
+
+            .list-group {
+                font-size: 10px;
+            }
+
+            .btn {
+                font-size: 10px;
+                padding: 0.3rem 0.5rem;
+            }
+        }
+
+        .details-bottom {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: baseline;
+
+            h2 {
+                font-size: 12px;
+                margin: 5px;
+            }
+
+            li {
+                font-size: 12px;
+                margin: 6px;
+                padding-bottom: 2px;
+            }
+
+            .text-secondary {
+                font-weight: 500;
+            }
+
+            h4 {
+                font-size: 12px;
+                padding-top: 10px;
+            }
+
+            .list-group {
+                font-size: 11px;
+            }
+        }
+    }
+
+    // TV Show Details
+    #show-details {
+
+        .details-top {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin: 25px 0 14px;
+
+            .card-img-top {
+                width: 215px;
                 margin: 0;
             }
 
