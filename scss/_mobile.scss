@@ -1,6 +1,6 @@
 // Tablets
 @media(max-width: 768px) {
-    // Movie & TV Show Home Page
+    // Movie Home Page
     .now-playing {
         h2 {
             font-size: 25px;
@@ -29,6 +29,10 @@
             flex-direction: row;
             align-items: center;
         }
+
+        input {
+            margin-right: 5px;
+        }
     }
 
     .container {
@@ -37,7 +41,22 @@
         }
     }
 
-    .grid {
+    #popular-shows {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        grid-gap: 20px;
+
+        .card {
+            width: 240px;
+
+            .card-body {
+            font-size: 10px; 
+            padding: 8px;
+            }
+        }
+    }
+
+    #popular-movies {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
         grid-gap: 20px;
