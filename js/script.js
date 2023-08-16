@@ -1,5 +1,5 @@
 const global = {
-    currentPage: window.location.pathname,
+    currentPage: window.location.pathname.replace('.html', ''),
     search: {
       term: '',
       type: '',
@@ -12,6 +12,8 @@ const global = {
       apiUrl: 'https://api.themoviedb.org/3/',
     },
   };
+
+  console.log(window.location.pathname);
   
   // Display 20 most popular movies
   async function displayPopularMovies() {
@@ -484,22 +486,22 @@ const global = {
   
   // Init App
   function init() {
+    console.log(global.currentPage)
     switch (global.currentPage) {
       case '/':
-      case '/index.html':
         displaySlider();
         displayPopularMovies();
         break;
-      case '/shows.html':
+      case '/shows':
         displayPopularShows();
         break;
-      case '/movie-details.html':
+      case '/movie-details':
         displayMovieDetails();
         break;
-      case '/tv-details.html':
+      case '/tv-details':
         displayShowDetails();
         break;
-      case '/search.html':
+      case '/search':
         search();
         break;
     }
