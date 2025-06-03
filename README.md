@@ -26,7 +26,7 @@ Built with semantic HTML5, CSS custom properties, Flexbox, and CSS Grid, the UI 
 - Structuring modular, maintainable code
 
 ## 🚀 Live Demo
-[watchstreamx.netlify.app]
+[https://watchstreamx.netlify.app]
 
 ## 📦 API Reference
 - [TMDB - The Movie Database](https://www.themoviedb.org)
