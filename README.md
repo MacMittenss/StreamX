@@ -1,32 +1,39 @@
-# StreamX
-A mock streaming website utilzing web APIs created using HTML, CSS and JavaScript.
+# StreamX 🎬
 
-Built with:
+**StreamX** is a fully responsive movie and TV show discovery interface that pulls dynamic content from The Movie Database (TMDB) API using vanilla JavaScript.
 
-• Semantic HTML5 markup
+Built with semantic HTML5, CSS custom properties, Flexbox, and CSS Grid, the UI adapts fluidly across devices. It features a dark-mode aesthetic, smooth slider carousels (powered by Swiper.js), and dynamic search functionality with loading spinners and pagination.
 
-• CSS custom properties
+## 💡 Features
+- Real-time movie and TV search powered by TMDB API
+- Responsive design with CSS Grid and Flexbox
+- Dark-themed UI with CSS custom properties and gradients
+- Scroll-triggered effects and dynamic content rendering
+- Swiper.js-powered carousels for popular titles
 
-• Flexbox
+## 🛠️ Technologies Used
+- HTML5 (semantic markup)
+- CSS3 (custom properties, gradients, media queries)
+- JavaScript (ES6+)
+- TMDB API
+- Swiper.js
 
-• CSS Grid
+## 📚 What I Learned
+- DOM manipulation with vanilla JavaScript
+- Responsive UI design using media queries
+- CSS gradients and custom theming
+- Integrating third-party APIs and libraries
+- Structuring modular, maintainable code
 
-• Responsive layout
+## 🚀 Live Demo
+[STREAMX](https://watchstreamx.netlify.app)
 
-• JavaScript
+## 📦 API Reference
+- [TMDB - The Movie Database](https://www.themoviedb.org)
 
-Learned:
+## 📝 Credits
+Carousel functionality powered by [Swiper.js](https://swiperjs.com) © 2014–2022 Vladimir Kharlampidi
 
-• Media queries
+---
 
-• CSS gradient colors
-
-• Logo creation and modification
-
-• JavaScript DOM manipulation
-
-Resources:
-
-Swiper JavaScript code from https://swiperjs.com. Copyright 2014-2022 Vladimir Kharlampidi. Released on: September 15, 2022.
-
-API: https://api.themoviedb.org.
+*Developed by Marcus Prater*
