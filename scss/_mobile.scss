@@ -125,7 +125,7 @@
 }
 
 // Smartphones
-@media(max-width: 620px) {
+@media(max-width: 650px) {
     // Movie & TV Show Home Page
     .main-header {
         .logo {
@@ -201,7 +201,7 @@
         grid-gap: 21px;
 
         .card {
-            width: 180px;
+            width: 180px !important;
 
             .card-body {
             font-size: 10px; 
